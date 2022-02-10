@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>welcome-page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- start -->
+    <!-- header part -->
+    <header class="container">
+        <h1 class="text-center pt-5 text-info">welcome to banking system</h1>
+    </header>
+    <!-- main part -->
+    <main class="container">
+        <!--personal information part -->
+        <section class="mt-5">
+            <div class="row row-cols-lg-3 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border text-center rounded-3 bg-info">
+                        <h1>Deposit</h1>
+                        <h3>$<span id="past-value">00</span></h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border text-center rounded-3 bg-warning">
+                        <h1>Withdrow</h1>
+                        <h3>$<span id="old-withdrow">00</span></h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border text-center rounded-3 bg-success">
+                        <h1>Blance</h1>
+                        <h3>$<span id="blance-input">200</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- update system -->
+        <section class="mt-5">
+            <div class="row row-cols-lg-2 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border text-center rounded-3 bg-info">
+                        <p><input type="text" name="" id="deposit-input"></p>
+                        <button id="deposit-button" class="btn btn-success px-5">Add</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border text-center rounded-3 bg-warning ">
+                        <p><input type="text" name="" id="withdrow-input"></p>
+                        <button id="withdrow-button" class="btn btn-success px-5">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- log out -->
+        <div class="text-center mt-5">
+            <button id="log-out" class="btn btn-info text-center">
+                logOut
+            </button>
+        </div>
+    </main>
+    <!-- end -->
+    <!-- my script link -->
+    <script src="./js/index.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
